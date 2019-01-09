@@ -12,12 +12,12 @@ RIGHT_PWM = 17
 GEARS = [0, 1, 2, 3, 4]
 
 # 定义操作指令, 小车有可以执行下面几种命令并且可以是某些命令的组合
-STOP     = 0x0000
-LEFT     = 0x0001
-RIGHT    = 0x0010
-FORWARD  = 0x0100
-BACKWARD = 0x1000
-SHUTDOWN = 0x1111
+STOP     = 0b0000
+LEFT     = 0b0001
+RIGHT    = 0b0010
+FORWARD  = 0b0100
+BACKWARD = 0b1000
+SHUTDOWN = 0b1111
 
 SERVER_HOST = "0.0.0.0"
 PI_HOST = "192.168.0.7"
